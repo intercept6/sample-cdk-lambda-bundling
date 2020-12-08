@@ -1,10 +1,5 @@
-This is a boilerplate project for TypeScript development with CDK.
+AWS CDK で Lambda をデプロイする際にバンドルに関するサンプルリポジトリ
 
-## Useful commands
+このリポジトリはこちらの記事を補足するためのものです。
 
-- `yarn fmt` reformat files
-- `yarn test` perform the jest unit tests
-- `yarn diff` compare deployed stack with current state
-- `yarn deploy` deploy this stack to your default AWS account/region
-- `yarn deploy [--profile $PROFILE_NAME]` deploy this stack to your $PROFILE_NAME AWS account/region
-- `yarn cdk synth` emits the synthesized CloudFormation template
+[AWS CDK の bundling オプションを使って Lambda へのデプロイ前処理も CDK で管理する方法](https://dev.classmethod.jp/articles/lambda-bundling-via-aws-cdk/)
