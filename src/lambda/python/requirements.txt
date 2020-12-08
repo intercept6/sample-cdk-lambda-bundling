@@ -1,0 +1,11 @@
+aws-xray-sdk==2.6.0
+boto3==1.16.30
+botocore==1.19.30
+future==0.18.2
+jmespath==0.10.0
+jsonpickle==1.4.2
+python-dateutil==2.8.1
+s3transfer==0.3.3
+six==1.15.0
+urllib3==1.26.2
+wrapt==1.12.1

@@ -3,7 +3,7 @@
     "target": "ES2018",
     "module": "commonjs",
     "lib": ["es2018"],
-    "declaration": true,
+    "declaration": false,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -18,7 +18,9 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "typeRoots": ["./node_modules/@types"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "downlevelIteration": true
   },
+  "include": ["src/**/*"],
   "exclude": ["cdk.out", "node_modules"]
 }

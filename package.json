@@ -1,5 +1,5 @@
 {
-  "name": "aws-cdk-boilerplate",
+  "name": "sample-cdk-lambda-bundling",
   "version": "0.1.0",
   "private": "true",
   "license": "MIT",
@@ -12,7 +12,8 @@
     "fmt:prettier": "prettier --ignore-path .gitignore --write .",
     "lib:check": "ncu",
     "lib:upgrade": "ncu -u",
-    "test": "jest"
+    "test": "jest",
+    "ts-build": "tsc --downlevelIteration"
   },
   "husky": {
     "hooks": {
@@ -36,8 +37,9 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.x",
-    "@aws-cdk/aws-apigatewayv2": "1.x",
+    "@aws-cdk/aws-lambda": "1.x",
     "@aws-cdk/aws-lambda-nodejs": "1.x",
+    "@aws-cdk/aws-lambda-python": "1.x",
     "@trivago/prettier-plugin-sort-imports": "^1.2.0",
     "@types/aws-lambda": "8.10.64",
     "@types/jest": "26.x",
@@ -45,6 +47,7 @@
     "@typescript-eslint/eslint-plugin": "4.x",
     "@typescript-eslint/parser": "4.x",
     "aws-cdk": "1.x",
+    "esbuild": "^0.8.18",
     "eslint": "7.x",
     "eslint-config-prettier": "6.x",
     "eslint-config-standard": "16.x",
